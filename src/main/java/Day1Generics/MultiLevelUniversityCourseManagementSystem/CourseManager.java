@@ -1,4 +1,12 @@
 package Day1Generics.MultiLevelUniversityCourseManagementSystem;
 
-public class CourseManager {
-}
+import java.util.List;
+
+    public class CourseManager {
+        public static void displayCourses(List<? extends CourseType> courses) {
+            for (CourseType course : courses) {
+                System.out.println(course.getCourseName() + " - " + course.getEvaluationMethod());
+            }
+        }
+    }
+
