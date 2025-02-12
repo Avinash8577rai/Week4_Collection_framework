@@ -1,10 +1,8 @@
 package Day2.QueueInterface.HospitalTriageSystem;
 
-import java.util.*;
-
-    class Patient {
+public class Patient {
         String name;
-        int severity;
+        public int severity;
 
         public Patient(String name, int severity) {
             this.name = name;
