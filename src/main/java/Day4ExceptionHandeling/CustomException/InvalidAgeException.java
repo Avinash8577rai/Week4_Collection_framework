@@ -1,8 +1,8 @@
 package Day4ExceptionHandeling.CustomException;
 
 
-public class InvalidException extends Exception{
-    public InvalidException(String message){
+public class InvalidAgeException extends Exception{
+    public InvalidAgeException(String message){
         super(message);
     }
 }
